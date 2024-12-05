@@ -20,6 +20,9 @@ const Navbar = () => {
           <Link to={'/blogs'} className="hover:text-gray-200 font-bold">
             Blogs
           </Link>
+          <Link to={'/about'} className="hover:text-gray-200 font-bold">
+            About Me
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -67,6 +70,12 @@ const Navbar = () => {
             className="block px-4 py-2 hover:bg-blue-800 hover:text-gray-200"
           >
             Blogs
+          </a>
+          <a
+            href="/about"
+            className="block px-4 py-2 hover:bg-blue-800 hover:text-gray-200"
+          >
+            About Me
           </a>
         </div>
       )}
